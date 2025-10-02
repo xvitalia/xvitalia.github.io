@@ -1,0 +1,176 @@
+/*on smaller screen footer mixes*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+/* *{	border: 1px solid rgba(0, 0, 0, 0.3);} */
+
+li {
+	display: inline-flex;
+}
+
+.offer {
+	display: inline-flex;
+}
+
+/*header{
+	position:absolute;
+	right:0;
+	top:0;
+}*/
+
+/*width to keep sides apart*/
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: #F2F2F2;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.main {
+	position: static;
+	top: 0;
+	left: 0;
+	transform: translate(0, 0);
+}
+
+.logo {
+	display: block;
+	margin: auto;
+}
+
+.formpart {
+	text-align: center;
+	/*position:absolute;
+	top: 45%;
+  	left: 50%;
+	transform: translate(-50%, -40%);*/
+}
+
+.form {
+	padding: 20px;
+}
+
+.input {
+	width: 450px;
+	height: 40px;
+	background-image: url(http://1.bp.blogspot.com/-lINg3E20_4Y/VebwdAy_MaI/AAAAAAAAFJU/8Jg2H-3-_cc/s1600/Microphone.png);
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+	background-size: 14px;
+}
+
+.logotext {
+	color: #4285F4;
+	font-weight: 500;
+	font-size: 1.3em;
+	position: fixed;
+	bottom: 4%;
+	right: 26.4%;
+}
+
+.maina {
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+}
+
+.lang {
+	margin: -1px 5px;
+}
+
+/*delete underline from links*/
+.lang a, header a, footer a {
+	text-decoration: none;
+}
+.rightu {
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+footer a {
+	color: gray;
+	margin: 10px;
+}
+
+.navtext, .navpic, .navbutton {
+	margin: 20px 20px 20px 0;
+}
+
+.rightu a {
+	color: #505050;
+}
+
+.navbutton {
+	margin-right: 38px;
+	padding: 7px 15px;
+	font-weight: 700;
+	background-color: #4285F4;
+	border-color: #4285F4;
+	border-style: solid;
+	border-radius: 2px;
+}
+
+.navbutton a {
+	color: #fff;
+}
+
+.lang:hover {
+	color: red;
+}
+
+/*google search, i'm feeling lucky*/
+.buttons {
+	padding: 7px 15px;
+	margin: 30px 1px 10px 1px;
+	background: #F2F2F2;
+	font-weight: 700;
+	color: #737373;
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-radius: 2px;
+}
+
+.shape {
+	background: #737373;
+	width: 4px;
+	height: 4px;
+	margin: 0 0 2px 0;
+	border-radius: 1px;
+}
+
+/*put 9 dots in the middle!*/
+.navpic {
+	vertical-align: middle;
+}
+
+.navpic:hover .shape {
+	background: #272727;
+}
+
+.shapes {
+	margin: 0 0 0 2px;
+}
+
+/*body{
+	border:1px solid red;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}*/
