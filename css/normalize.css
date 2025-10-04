@@ -14,6 +14,7 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
   width: 100vw;  margin: 0;  padding: 0; 
+  overflow-x: hidden; /*this shit to have no vertical scroll*/
 }
 
 
@@ -449,7 +450,7 @@ template {
 /**
  * Add the correct display in IE 10-.
  */
-
+ 
 [hidden] {
   display: none;
 }
