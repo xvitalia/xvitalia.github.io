@@ -1,4 +1,5 @@
 
+
 /* --- Navigation --- */
 
 div.navbar-collapse{
@@ -143,11 +144,11 @@ div.background-dark{
 	width:40px;
 	padding:5px;
 }
-/*1st category*/
+/*1st category
 .expf{
 
 }
-
+*/
 .tool-font{
 	text-align:left;
 	font-size:16px;
@@ -155,11 +156,11 @@ div.background-dark{
 	font-family: serif, Arial;
 	text-transform:uppercase;
 }
-/*2nd category*/
+/*2nd category
  .famif{
 }
 
-
+*/
 
 .tools .img{
 	color:white;
@@ -175,8 +176,11 @@ div.background-dark{
 	font-weight:600;
 	padding-bottom:0;
 	margin-bottom:0;
+	margin-left: 20px;
+	
 	
 }
+
 .project0 .smal{
 	letter-spacing:-0.13em;
 	font-size:16px;
@@ -219,10 +223,12 @@ div.background-dark{
 	font-weight: 600;
 	display:inline-block;
 }
+
+/*
 .gitlink{
 	
 }
-
+*/
 
 .tags, .viewbuttons{
 	text-align:center;
